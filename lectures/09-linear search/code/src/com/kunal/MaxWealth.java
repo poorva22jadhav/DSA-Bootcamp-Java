@@ -1,10 +1,11 @@
 package com.kunal;
 // https://leetcode.com/problems/richest-customer-wealth/
-public class MaxWealth {
+ class MaxWealth {
     public static void main(String[] args) {
-
+         int array[][]={{21,23,45},{12,3,4}};
+         System.out.println(maximumWealth(array));
     }
-    public int maximumWealth(int[][] accounts) {
+    public static int maximumWealth(int[][] accounts) {
         // person = rol
         // account = col
         int ans = Integer.MIN_VALUE;
